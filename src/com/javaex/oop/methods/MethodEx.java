@@ -6,17 +6,18 @@ public class MethodEx {
 		// 매개변수 X, 리턴 X
 //		printMessage();
 		// 매개변수 X, 리턴 O
-//		String message = getMessage();
-//		System.out.println(message);
+		String message = getMessage();
+		System.out.println(message);
 		// 매개변수 O, 리턴 X
 //		printDevide(4, 0);
 		// 매개변수 O, 리턴 O
-		int num1 = 4, num2 = 5;
+//		int num1 = 4, num2 = 5;
 //		double sum = getSum(num1, num2);
-		double sum = getSum(num1, num2, 6);
-		System.out.println(sum);
+//		double sum = getSum(num1, num2, 6);
+//		System.out.println(sum);
 	}
 
+	// 매개변수 O, 리턴 O
 	private static double getSum(double num1, double num2) {
 		System.out.println("매개변수 있고, 리턴도 있는 메서드");
 		return num1 + num2;
@@ -38,10 +39,12 @@ public class MethodEx {
 		System.out.printf("%d / %d = %d%n", num1, num2, num1 / num2);
 	}
 
+	// 매개변수 X, 리턴 O
 	private static String getMessage() {
 		return "매개변수 없지만 리턴은 있는 메서드";
 	}
 
+	// 매개변수 X, 리턴 X
 	private static void printMessage() {
 		// 매개변수 X,
 		// 리턴 X -> void
