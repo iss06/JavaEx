@@ -44,7 +44,7 @@ public class StringEx {
 		System.out.println("toUpperCase:" + str.toUpperCase()); // 전부 대문자로
 		System.out.println("toLowerCase:" + str.toLowerCase()); // 전부 소문자로
 
-		// 검색
+		// 검색☆
 		System.out.println("charAt:" + str.charAt(5)); // 5번 인덱스의 글자
 		int index = 0; // 인덱스 저장 변수
 		index = str.indexOf("Programming"); // str내 "Programming"의 위치 인덱스
