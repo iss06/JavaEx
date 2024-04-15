@@ -13,9 +13,9 @@ public class CharStreamEx {
 
 	public static void main(String[] args) {
 		// FileWriter
-//		writeFile();
+		writeFile();
 		// FileReader
-		readFile();
+//		readFile();
 
 	}
 
@@ -25,7 +25,7 @@ public class CharStreamEx {
 
 		try (
 				// 스트링 열고
-				Writer writer = new FileWriter(filename);) {
+				Writer writer = new FileWriter(filename)) {
 			// 텍스트 기록
 			writer.write("하이미디어 아카데미\r\n");
 			writer.write("Java Programming\r\n");
